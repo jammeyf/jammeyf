@@ -1,0 +1,13 @@
+numbers = list(range(1,16))
+user_input = input("Enter a number between 1 and 15: ")
+try:
+  number = int(user_input)
+  if number in numbers
+    if number % 2 == 0:
+      print(str(number) + " is even.")
+    else:
+      print(str(number) + " is odd.")
+  else: 
+    print("Number is invalid.")
+except ValueError:
+  print("Please enter a valid number.")
