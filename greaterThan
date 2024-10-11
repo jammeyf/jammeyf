@@ -1,0 +1,15 @@
+a = int(input("Please enter a number."))
+b = int(input("Please enter another number."))
+def compare(a,b):
+    if a < b:
+        a = str(a)
+        b = str(b)
+        false = str("The statement " + a + " is greater than " + b + " is false.")
+        print(false)
+    else:
+        a = str(a)
+        b = str(b)
+        true = str("The statement " + a + " is greater than " + b + " is true.")
+        print(true)
+        return
+result = compare(a,b)
